@@ -1,0 +1,45 @@
+/* 字体声明（来自「简素·文档系统」字体清单 / assets/fonts/fonts.json）
+   font-display: swap + 按需加载：仅当用户选中的字体栈命中此 font-family 时，
+   浏览器才会去拉对应 woff2。默认 --font-sans 走系统栈，因此默认页面不下载任何 woff2，
+   保持极简快速；只有用户主动选了某个简素字体才会触发加载。*/
+
+/* === 拉丁·无衬线 === */
+@font-face{font-family:'Inter';font-weight:400;font-style:normal;font-display:swap;src:url('../fonts/inter-400.woff2') format('woff2')}
+@font-face{font-family:'Inter';font-weight:600;font-style:normal;font-display:swap;src:url('../fonts/inter-600.woff2') format('woff2')}
+@font-face{font-family:'Inter';font-weight:700;font-style:normal;font-display:swap;src:url('../fonts/inter-700.woff2') format('woff2')}
+@font-face{font-family:'Baloo 2';font-weight:400;font-style:normal;font-display:swap;src:url('../fonts/baloo-2-400.woff2') format('woff2')}
+@font-face{font-family:'Baloo 2';font-weight:700;font-style:normal;font-display:swap;src:url('../fonts/baloo-2-700.woff2') format('woff2')}
+
+/* === 拉丁·衬线 === */
+@font-face{font-family:'Lora';font-weight:400;font-style:normal;font-display:swap;src:url('../fonts/lora-400.woff2') format('woff2')}
+@font-face{font-family:'Lora';font-weight:700;font-style:normal;font-display:swap;src:url('../fonts/lora-700.woff2') format('woff2')}
+
+/* === 等宽·代码 === */
+@font-face{font-family:'JetBrains Mono';font-weight:400;font-style:normal;font-display:swap;src:url('../fonts/jetbrains-mono-400.woff2') format('woff2')}
+@font-face{font-family:'JetBrains Mono';font-weight:700;font-style:normal;font-display:swap;src:url('../fonts/jetbrains-mono-700.woff2') format('woff2')}
+@font-face{font-family:'Cascadia Code';font-weight:400;font-style:normal;font-display:swap;src:url('../fonts/cascadia-code-400.woff2') format('woff2')}
+@font-face{font-family:'Cascadia Code';font-weight:700;font-style:normal;font-display:swap;src:url('../fonts/cascadia-code-700.woff2') format('woff2')}
+@font-face{font-family:'Fira Code';font-weight:400;font-style:normal;font-display:swap;src:url('../fonts/fira-code-400.woff2') format('woff2')}
+@font-face{font-family:'Fira Code';font-weight:700;font-style:normal;font-display:swap;src:url('../fonts/fira-code-700.woff2') format('woff2')}
+@font-face{font-family:'Ubuntu Sans Mono';font-weight:400;font-style:normal;font-display:swap;src:url('../fonts/ubuntu-sans-mono-400.woff2') format('woff2')}
+@font-face{font-family:'Ubuntu Sans Mono';font-weight:600;font-style:normal;font-display:swap;src:url('../fonts/ubuntu-sans-mono-600.woff2') format('woff2')}
+@font-face{font-family:'Ubuntu Sans Mono';font-weight:700;font-style:normal;font-display:swap;src:url('../fonts/ubuntu-sans-mono-700.woff2') format('woff2')}
+
+/* === 中文·无衬线 === */
+@font-face{font-family:'Noto Sans SC';font-weight:400;font-style:normal;font-display:swap;src:url('../fonts/noto-sans-sc-400.woff2') format('woff2')}
+@font-face{font-family:'Noto Sans SC';font-weight:700;font-style:normal;font-display:swap;src:url('../fonts/noto-sans-sc-700.woff2') format('woff2')}
+@font-face{font-family:'Sarasa SC';font-weight:400;font-style:normal;font-display:swap;src:url('../fonts/sarasa-sc-400.woff2') format('woff2')}
+
+/* === 中文·衬线 === */
+@font-face{font-family:'Noto Serif SC';font-weight:400;font-style:normal;font-display:swap;src:url('../fonts/noto-serif-sc-400.woff2') format('woff2')}
+@font-face{font-family:'Noto Serif SC';font-weight:700;font-style:normal;font-display:swap;src:url('../fonts/noto-serif-sc-700.woff2') format('woff2')}
+
+/* === 中文·展示 === */
+@font-face{font-family:'Ziyou Wenhua Hei';font-weight:400;font-style:normal;font-display:swap;src:url('../fonts/ziyou-wenhua-hei-400.woff2') format('woff2')}
+@font-face{font-family:'ZCOOL QingKe HuangYou';font-weight:400;font-style:normal;font-display:swap;src:url('../fonts/zcool-qingke-huangyou-400.woff2') format('woff2')}
+
+/* === 中文·手写 === */
+@font-face{font-family:'Ma Shan Zheng';font-weight:400;font-style:normal;font-display:swap;src:url('../fonts/ma-shan-zheng-400.woff2') format('woff2')}
+
+/* === 已有 ttf：字由文艺黑（保留以兼容未替换的旧引用） === */
+@font-face{font-family:'Ziyou Wenhua Hei';font-weight:400;font-style:normal;font-display:block;src:url('../fonts/字由文艺黑.ttf') format('truetype')}
